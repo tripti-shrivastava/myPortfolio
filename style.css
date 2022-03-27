@@ -17,8 +17,8 @@
   --color-dark: #4b4a53;
 
   --container-width-lg: 82%;
-  --container-width-md: 90%;
-  --container-width-sm: 96%;
+  --container-width-md: 92%;
+  --container-width-sm: 98%;
 
   --transition: all 400ms ease;
 }
@@ -597,8 +597,8 @@ header {
 }
 
 .header__right-bg {
-  width: 20rem;
-  height: 20rem;
+  width: 23rem;
+  height: 23rem;
   right: 50%;
   bottom: 50%;
   transform: translate(50%, 50%);
@@ -704,7 +704,7 @@ header {
   .header__container {
     grid-template-columns: 1fr;
     margin-top: 3rem;
-    gap: 4.5rem;;
+    gap: 3.5rem;;
   }
 
   .header__left {
@@ -718,11 +718,11 @@ header {
 
   .header__image {
     position: absolute;
-    top: -8.5rem;
+    top: -7rem;
   }
 
   .header__right-bg {
-    bottom: 56%;
+    bottom: 52%;
   }
 
   .header__socials {
